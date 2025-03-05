@@ -1,0 +1,13 @@
+We can divide a function into parts(modules) and use the function by using the require function 
+from the JS to import the modules and use them.
+
+But we have to export the following function first to make them import
+using module.export = "function name" (Inside the function File)
+
+But if we have multiple function in the same file and we want to export it we using objects to do it
+module.export = {
+    add,sub (function name)
+
+        OR
+    addFun : add
+}
